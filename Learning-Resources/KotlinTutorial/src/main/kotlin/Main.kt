@@ -1,5 +1,7 @@
 //fun defines function in kotlin
 fun main(args: Array<String>) {
+
+
     println("Hello World")
     println("Mahtab has started Kotlin development")
 
@@ -57,6 +59,15 @@ fun main(args: Array<String>) {
     println("this is to print out the dollar sign and a value together: \$mahtab")
 
     println("Ali's full name is: $ali")
+
+
+
+    val lives = 3
+
+    if (lives < 4) {
+        println("Game Over!")
+
+    }
 
 
 
