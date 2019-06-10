@@ -1,6 +1,6 @@
 fun main (args: Array<String>) {
 
-
+/*
     println("Hello World")
     println("Mahtab has started Kotlin development")
 
@@ -59,10 +59,11 @@ fun main (args: Array<String>) {
 
     println("Ali's full name is: $ali")
 
+*/
 
-
-    val lives = 0
+   /* val lives = 0
     var isGameOver = (lives < 1)
+    println(isGameOver)
 
     if (isGameOver) {
 
@@ -72,6 +73,30 @@ fun main (args: Array<String>) {
 
         println("you're still alive!")
 
+    }*/
+
+
+println("How old are you: ")
+
+val age = readLine()!!.toInt()
+    println("Your age is: $age")
+    val message: String
+    message = when {
+        age < 18 -> "you are under age"
+        age == 100 -> "you are eligible"
+        else -> "you can vote"
     }
+
+/*
+message = if (age < 18) {
+"you are under age"
+} else if (age == 100) {
+"you are eligible"
+} else {
+"you can vote"
+}*/
+println(message)
+
+
 
 }
