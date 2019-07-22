@@ -137,4 +137,8 @@ jon.weapon = Weapon(name="Spear", damageInflicted = 14)
 jon.show()
 
 
+val redPotion = Loot(name = "Red Potion", LootType.POTION, value=7.50)
+mahtab.inventory.add(redPotion)
+
+
 }
