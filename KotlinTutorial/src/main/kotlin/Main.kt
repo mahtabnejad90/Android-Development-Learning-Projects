@@ -97,20 +97,44 @@ message = if (age < 18) {
 }*/
 //println(message)
 
-    val jon = Player(name = "Jon", lives = 0, score = 0)
 
-
-    val mahtab = Player(name = "Mahtab", lives = 8, score = 0)
 /*    println(mahtab.name)
     println(mahtab.lives)
     println(mahtab.level)
     println(mahtab.score)*/
 
-val jimmy = Player(name = "Jimmy", lives = 5, score = 1000)
+val louise = Player(name = "Louise", lives = 0, score = 0)
 
+
+val jon = Player(name = "Jon", lives = 0, score = 0)
+
+
+val mahtab = Player(name = "Mahtab", lives = 8, score = 0)
     mahtab.show()
+val jimmy = Player(name = "Jimmy", lives = 5, score = 1000)
     jimmy.show()
 
+println(mahtab.weapon.name.toUpperCase())
+println(mahtab.weapon.damageInflicted)
+
+   val axe = Weapon(name = "Axe", damageInflicted = 12)
+    mahtab.weapon = axe
+    println(mahtab.weapon.name)
+    println(axe.name)
+
+    axe.damageInflicted = 24
+    println(axe.damageInflicted)
+    println(mahtab.weapon.damageInflicted)
+
+jon.weapon = Weapon("Sword", damageInflicted = 10)
+//println(jon.weapon.name)
+jon.show()
+
+louise.weapon= jon.weapon
+louise.show()
+jon.weapon = Weapon(name="Spear", damageInflicted = 14)
+//println(jon.weapon.name)
+jon.show()
 
 
 }

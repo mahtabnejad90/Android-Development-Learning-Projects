@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1710cfd-bd3f-4dd5-baba-062fadbe75d9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Player.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Weapon.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/KotlinTutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/KotlinTutorial.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/KotlinTutorialjar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/KotlinTutorialjar-classes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
@@ -20,6 +19,12 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
@@ -50,6 +55,7 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
@@ -59,6 +65,7 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/KotlinTutorial.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/KotlinTutorial.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Player.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -85,8 +92,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
+            <state relative-caret-position="419">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
+              <folding>
+                <element signature="e#34#2105#0" />
+                <element signature="e#2110#2300#0" />
+                <element signature="e#2303#2563#0" />
+                <element signature="e#2561#2681#0" />
+                <element signature="e#2743#2849#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Weapon.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -94,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/Player.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="312">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -115,14 +138,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/kotlin/Weapon.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Player.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Main.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="558" />
-    <option name="y" value="54" />
+    <option name="x" value="783" />
+    <option name="y" value="81" />
     <option name="width" value="1234" />
     <option name="height" value="874" />
   </component>
@@ -415,7 +439,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="558" y="54" width="1234" height="874" extended-state="0" />
+    <frame x="783" y="81" width="1234" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16442953" />
@@ -450,17 +474,31 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Weapon.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Player.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="312">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
+        <state relative-caret-position="419">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#34#2105#0" />
+            <element signature="e#2110#2300#0" />
+            <element signature="e#2303#2563#0" />
+            <element signature="e#2561#2681#0" />
+            <element signature="e#2743#2849#0" />
+          </folding>
         </state>
       </provider>
     </entry>
