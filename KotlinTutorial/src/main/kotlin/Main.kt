@@ -76,7 +76,7 @@ fun main (args: Array<String>) {
     }*/
 
 
-println("How old are you: ")
+/*println("How old are you: ")
 
 val age = readLine()!!.toInt()
     println("Your age is: $age")
@@ -85,7 +85,7 @@ val age = readLine()!!.toInt()
         age < 18 -> "you are under age"
         age == 100 -> "you are eligible"
         else -> "you can vote"
-    }
+    }*/
 
 /*
 message = if (age < 18) {
@@ -95,7 +95,21 @@ message = if (age < 18) {
 } else {
 "you can vote"
 }*/
-println(message)
+//println(message)
+
+    val jon = Player(name = "Jon", lives = 0, score = 0)
+
+
+    val mahtab = Player(name = "Mahtab", lives = 8, score = 0)
+/*    println(mahtab.name)
+    println(mahtab.lives)
+    println(mahtab.level)
+    println(mahtab.score)*/
+
+val jimmy = Player(name = "Jimmy", lives = 5, score = 1000)
+
+    mahtab.show()
+    jimmy.show()
 
 
 
