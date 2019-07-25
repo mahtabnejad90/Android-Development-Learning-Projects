@@ -103,21 +103,24 @@ message = if (age < 18) {
     println(mahtab.level)
     println(mahtab.score)*/
 
-val louise = Player(name = "Louise", lives = 0, score = 0)
+val louise = Player("Louise", lives = 0, score = 0)
+
+val jon = Player("jon", lives = 0, score = 0)
 
 
-val jon = Player(name = "Jon", lives = 0, score = 0)
+val mahtab = Player("Mahtab", lives = 8, score = 0)
+mahtab.show()
+val jimmy = Player("Jimmy", lives = 8, score = 0)
+jimmy.show()
 
 
-val mahtab = Player(name = "Mahtab", lives = 8, score = 0)
-    mahtab.show()
-val jimmy = Player(name = "Jimmy", lives = 5, score = 1000)
-    jimmy.show()
+
+
 
 println(mahtab.weapon.name.toUpperCase())
 println(mahtab.weapon.damageInflicted)
 
-   val axe = Weapon(name = "Axe", damageInflicted = 12)
+   val axe = Weapon("Axe", damageInflicted = 12)
     mahtab.weapon = axe
     println(mahtab.weapon.name)
     println(axe.name)
@@ -132,12 +135,12 @@ jon.show()
 
 louise.weapon= jon.weapon
 louise.show()
-jon.weapon = Weapon(name="Spear", damageInflicted = 14)
+jon.weapon = Weapon("Spear", damageInflicted = 14)
 //println(jon.weapon.name)
 jon.show()
 
 
-val redPotion = Loot(name = "Red Potion", LootType.POTION, value=7.50)
+val redPotion = Loot("Red Potion", LootType.POTION, 7.50)
 mahtab.inventory.add(redPotion)
 
 
