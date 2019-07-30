@@ -37,9 +37,10 @@ if (lives > 0) {
     lives: $lives
     level: $level
     score: $score
-    weapon: ${weapon.name}
-    damage: ${weapon.damageInflicted}
+    weapon: ${weapon}
 """
+
+        //damage: ${weapon.damageInflicted}   (inside quotes previously.)
     }
 
     fun showInventory() {
