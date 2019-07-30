@@ -142,6 +142,8 @@ jon.show()
 
 val redPotion = Loot("Red Potion", LootType.POTION, 7.50)
 mahtab.inventory.add(redPotion)
+mahtab.showInventory()
+println(mahtab.toString())   //kotlin calls toString even if not specified.
 
 
 }

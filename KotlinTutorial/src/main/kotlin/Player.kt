@@ -12,7 +12,7 @@ val inventory = ArrayList<Loot>()
 
 
     fun show(){
-    println("""
+/*    println("""
     name: $name
     lives: $lives
     level: $level
@@ -20,8 +20,33 @@ val inventory = ArrayList<Loot>()
     weapon: ${weapon.name}
     damage: ${weapon.damageInflicted}
 """
-    )
+    )*/
+
+if (lives > 0) {
+    println("$name is alive")
+} else {
+    println("$name is dead")
 }
+
+
+}
+
+    override fun toString(): String {
+        return """
+    name: $name
+    lives: $lives
+    level: $level
+    score: $score
+    weapon: ${weapon.name}
+    damage: ${weapon.damageInflicted}
+"""
+    }
+
+    fun showInventory() {
+        println("$name's Inventory")
+        println(inventory.get(0))
+        println("=======================================")
+    }
 
 
 }
