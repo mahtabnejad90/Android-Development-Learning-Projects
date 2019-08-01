@@ -1,6 +1,5 @@
 fun main (args: Array<String>) {
 
-/*
     println("Hello World")
     println("Mahtab has started Kotlin development")
 
@@ -59,9 +58,9 @@ fun main (args: Array<String>) {
 
     println("Ali's full name is: $ali")
 
-*/
 
-   /* val lives = 0
+
+    val lives = 0
     var isGameOver = (lives < 1)
     println(isGameOver)
 
@@ -73,10 +72,10 @@ fun main (args: Array<String>) {
 
         println("you're still alive!")
 
-    }*/
+    }
 
 
-/*println("How old are you: ")
+println("How old are you: ")
 
 val age = readLine()!!.toInt()
     println("Your age is: $age")
@@ -85,25 +84,24 @@ val age = readLine()!!.toInt()
         age < 18 -> "you are under age"
         age == 100 -> "you are eligible"
         else -> "you can vote"
-    }*/
+    }
 
-/*
+
 message = if (age < 18) {
 "you are under age"
 } else if (age == 100) {
 "you are eligible"
 } else {
 "you can vote"
-}*/
+}
 //println(message)
 
 
-/*    println(mahtab.name)
+    println(mahtab.name)
     println(mahtab.lives)
     println(mahtab.level)
-    println(mahtab.score)*/
+    println(mahtab.score)
 
-/*
 val louise = Player("Louise", lives = 0, score = 0)
 
 val jon = Player("jon", lives = 0, score = 0)
@@ -151,10 +149,9 @@ jon.show()
  println(mahtab.toString())   //kotlin calls toString even if not specified.
 
 
-*/
 
 
-for (i in 10 downTo 0 step 2) {
+/*for (i in 10 downTo 0 step 2) {
     println("$i squared is ${i * i}")
 
 }
@@ -163,6 +160,6 @@ for(value in 3..100 step 3){
 if(value % 5 == 0){
     println(value)
 }
-}
+}*/
 
 }
