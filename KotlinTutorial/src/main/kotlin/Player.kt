@@ -45,7 +45,13 @@ if (lives > 0) {
 
     fun showInventory() {
         println("$name's Inventory")
-        println(inventory.get(0))
+
+        //For each loop
+        for (item in inventory) {
+            println(item)
+        }
+
+//        println(inventory.get(0))
         println("=======================================")
     }
 

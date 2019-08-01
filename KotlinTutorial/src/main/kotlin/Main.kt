@@ -103,6 +103,7 @@ message = if (age < 18) {
     println(mahtab.level)
     println(mahtab.score)*/
 
+/*
 val louise = Player("Louise", lives = 0, score = 0)
 
 val jon = Player("jon", lives = 0, score = 0)
@@ -132,18 +133,36 @@ println(mahtab.weapon.damageInflicted)
 jon.weapon = Weapon("Sword", damageInflicted = 10)
 //println(jon.weapon.name)
 jon.show()
-
-louise.weapon= jon.weapon
-louise.show()
-jon.weapon = Weapon("Spear", damageInflicted = 14)
+ louise.weapon= jon.weapon
+ louise.show()
+ jon.weapon = Weapon("Spear", damageInflicted = 14)
 //println(jon.weapon.name)
-jon.show()
+ jon.show()
 
 
-val redPotion = Loot("Red Potion", LootType.POTION, 7.50)
-mahtab.inventory.add(redPotion)
-mahtab.showInventory()
-println(mahtab.toString())   //kotlin calls toString even if not specified.
+ val redPotion = Loot("Red Potion", LootType.POTION, 7.50)
+ mahtab.inventory.add(redPotion)
+ val chestArmor = Loot("+3 Chest Armor", LootType.ARMOR, 80.00)
+ mahtab.inventory.add(chestArmor)
+ mahtab.showInventory()
+ mahtab.inventory.add(Loot("Ring of Protection +2", LootType.RING,40.25))
+ mahtab.inventory.add(Loot("Invisibility Potion", LootType.POTION, 35.95))
+ mahtab.showInventory()
+ println(mahtab.toString())   //kotlin calls toString even if not specified.
 
+
+*/
+
+
+for (i in 10 downTo 0 step 2) {
+    println("$i squared is ${i * i}")
+
+}
+
+for(value in 3..100 step 3){
+if(value % 5 == 0){
+    println(value)
+}
+}
 
 }
