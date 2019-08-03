@@ -1,59 +1,50 @@
-import java.lang.reflect.Array
-import java.util.ArrayList
+/**
+ * Created by Mahtab
 
-class Player(val name: String, val level: Int = 1, val lives: Int, val score: Int ) {
-    //telling kotlin that a name in string must be supplied whenever player objects are created
+ */
+class Player(val name: String, var level: Int = 1, var lives: Int = 3, var score: Int = 0) {
+    var weapon: Weapon = Weapon("Fist", 1)
+    private val inventory = ArrayList<Loot>()
 
-var weapon: Weapon = Weapon(name= "Fist",damageInflicted=1)
-//using var because any of those instances may be interchangeable
-
-//arraylist:
-val inventory = ArrayList<Loot>()
-
-
-    fun show(){
-/*    println("""
-    name: $name
-    lives: $lives
-    level: $level
-    score: $score
-    weapon: ${weapon.name}
-    damage: ${weapon.damageInflicted}
-"""
-    )*/
-
-if (lives > 0) {
-    println("$name is alive")
-} else {
-    println("$name is dead")
-}
-
-
-}
+    fun show() {
+        if (lives > 0) {
+            println("$name is alive")
+        } else {
+            println("$name is dead")
+        }
+    }
 
     override fun toString(): String {
         return """
-    name: $name
-    lives: $lives
-    level: $level
-    score: $score
-    weapon: ${weapon}
-"""
+            name: $name
+            lives: $lives
+            level: $level
+            score: $score
+            weapon: ${weapon}
+            """
+    }
 
-        //damage: ${weapon.damageInflicted}   (inside quotes previously.)
+
+
+    fun getLoot (item: Loot) {
+        inventory.add(item)
+        //inventory goes here
+    }
+
+    fun dropLoot (item: Loot): Boolean {
+        return if (inventory.contains(item)) {
+                inventory.remove(item)
+            true
+        } else {
+            false
+        }
     }
 
     fun showInventory() {
         println("$name's Inventory")
-
-        //For each loop
         for (item in inventory) {
             println(item)
         }
-
-//        println(inventory.get(0))
-        println("=======================================")
+        println("================================")
     }
-
-
 }
