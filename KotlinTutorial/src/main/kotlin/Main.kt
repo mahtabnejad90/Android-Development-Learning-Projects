@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    val tim = Player("Tim")
+/*    val tim = Player("Tim")
     tim.show()
 
     val louise = Player("Louise", 5)
@@ -71,7 +71,24 @@ fun main(args: Array<String>) {
        tim.showInventory()
    } else {
        println("You don't have an Invisibility Potion")
-   }
+   }*/
 
+/*val enemy = Enemy("test enemy", 10, 3)
+println(enemy)
+    enemy.takeDamage(4)
+    println(enemy)
+
+    enemy.takeDamage(11)
+    println(enemy)*/
+
+    val uglyTroll = Troll("Ugly Troll")
+    println(uglyTroll)
+    uglyTroll.takeDamage(30)
+    println(uglyTroll)
+
+    val vlad = Vampyre("Vlad")
+    println(vlad)
+    vlad.takeDamage(8)
+    println(vlad)
 
 }
