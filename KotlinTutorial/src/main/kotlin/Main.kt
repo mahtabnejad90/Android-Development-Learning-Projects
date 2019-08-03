@@ -48,8 +48,6 @@ fun main(args: Array<String>) {
     } else {
         println("you don't have a ${redPotion.name}")
     }
-
-
     val bluePotion = Loot("Blue Potion", LootType.POTION,6.00)
 
     if(tim.dropLoot(bluePotion)) {
@@ -69,4 +67,11 @@ fun main(args: Array<String>) {
             println(value)
         }
     }
+   if (tim.dropLoot("Invisibility Potion")) {
+       tim.showInventory()
+   } else {
+       println("You don't have an Invisibility Potion")
+   }
+
+
 }
