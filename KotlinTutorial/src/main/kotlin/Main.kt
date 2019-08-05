@@ -91,9 +91,15 @@ println(enemy)
     vlad.takeDamage(8)
     println(vlad)
 
- val dracula = VampyreKing("Dracula")
+    val dracula = VampyreKing("Dracula")
     println(dracula)
-dracula.takeDamage(12)
 
-
+    while (dracula.lives > 0) {
+        if (dracula.runAway()) {
+            println("Dracula ran away")
+            break
+        } else {
+            dracula.takeDamage(12)
+        }
+    }
 }
