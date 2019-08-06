@@ -90,16 +90,17 @@ println(enemy)
     println(vlad)
     vlad.takeDamage(8)
     println(vlad)
-
-
     */
 
-    for (i in 1 .. 10) {
+//    for (i in 1 .. 10) {
         val dracula = VampyreKing("Dracula")
         println(dracula)
 
-        while (dracula.lives > 0) {
+        dracula.lives = 0
+
+         do {
             if (dracula.dodges()) {
+                dracula.lives += 1
                 continue;
             }
             if (dracula.runAway()) {
@@ -108,9 +109,9 @@ println(enemy)
             } else {
                 dracula.takeDamage(80)
             }
-        }
+        } while (dracula.lives > 0)
         println("--------------------------")
-    }
+//    }
 
     //for each loop
 /*
