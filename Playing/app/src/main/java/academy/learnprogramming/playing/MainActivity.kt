@@ -1,7 +1,7 @@
-package learningprogramming.academy
+package academy.learnprogramming.playing
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
