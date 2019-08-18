@@ -3,10 +3,13 @@ package com.mahtab.buttonclickapp
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.text.method.ScrollingMovementMethod
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+
+private val TAG = "MainActivity"
 
 class MainActivity : AppCompatActivity() {
     //private var userInput: EditText? = null
@@ -16,7 +19,8 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        Log.d(TAG, "onCreate: called")
+       super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         val userInput: EditText = findViewById<EditText>(R.id.editText)
@@ -29,6 +33,7 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener(object : View.OnClickListener {
             override fun onClick(v: View?) {
+                Log.d(TAG, "onClick: called")
 //numTimesClicked += 1
                 textView?.append(userInput.text)
                 textView?.append("\n")
